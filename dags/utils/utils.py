@@ -14,7 +14,6 @@ def filter_mail_inbox(imap: imaplib.IMAP4_SSL, date_from: str, date_to: str):
     peya_typ, peya_data = imap.search(None, '(FROM "confirmacion@pedidosya.com")')
     date_typ, date_data = imap.search(None, f'(SINCE "{date_from}" BEFORE "{date_to}")')
     ids = list(set(peya_data[0].split()) & set(date_data[0].split()))
-    # ids = peya_data[0].split()
 
     return ids
 

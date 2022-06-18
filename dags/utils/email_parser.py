@@ -44,7 +44,7 @@ class EmailParser:
             # if the email message is multipart
             if self.msg.is_multipart():
                 # iterate over email parts
-                for part in msg.walk():
+                for part in self.msg.walk():
                     # extract content type of email
                     content_type = part.get_content_type()
                     content_disposition = str(part.get("Content-Disposition"))

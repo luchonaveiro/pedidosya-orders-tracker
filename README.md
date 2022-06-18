@@ -13,7 +13,7 @@ Pedidos Ya is an Uruguayan app which operates in most Latin American countries a
 
 ![pedidosya](assets/pedidosya.png)
 
-Whenever you make an order, you receive an email with the confirmation of your order, and ttheeh final price you paid for it.
+Whenever you make an order, you receive an email with the confirmation of your order, and the final price you paid for it.
 
 ![mail_pedidosya](assets/mail_pedidosya.png)
 
