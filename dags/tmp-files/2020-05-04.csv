@@ -1,0 +1,2 @@
+id,date,total_amount,subtotal_amount,tip_amount,shipping_amount,discount_amount,payment_method
+3234,2020-05-03 19:21:18,0.0,250.0,0.0,0.0,270.0,Pago online

@@ -1,0 +1,6 @@
+*DS_Store
+logs
+plugins
+mail_reader.ipynb
+.ipynb_checkpoints
+*__pycache__
